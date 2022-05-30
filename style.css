@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Merriweather Sans', sans-serif;
+    color: #837E9F;
+}
+body {
+    background-color: #22212C;
+}
+.eu {
+    width: 128px;
+    height: 128px;
+    border-radius: 50%;
+    border: 2px solid #00FF00;
+}
+.nome {
+    font-size: 23px;
+}
+.atribuição {
+    font-size: 13px;
+}
+.profile {
+    background-color: #302F3D;
+    border-radius: 20px;
+    width: 330px;
+    height: 287px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.links {
+    background-color: #302F3D;
+    border-radius: 20px;
+    width: 348px;
+    height: 292px;
+    padding: 10px;
+}
+.brasil{
+    margin-top: 10px;
+}
+.brasil, .estudante, .github, .linkedin, .email {
+    font-size: 13px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: flex-start;
+    padding: 15px;
+}
+.tecnologias {
+    background-color: #302F3D;
+    border-radius: 20px;
+    width: 348px;
+    height: 292px;
+    padding: 10px;
+}
+.titulo-tec {
+    padding: 20px;
+}
+.html, .css, .node, .js, .git {
+    background-color: #CB92B1;
+    width: 88px;
+    height: 24px;
+    border-radius: 30px;
+    margin-top: 15px;
+    margin-left: 5px;
+    display: inline-block;
+}
+.html p, .css p, .node p, .js p, .git p {
+    font-size: 10px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+.projetos {
+    background-color: #302F3D;
+    width: 952px;
+    height: 86px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.tituloproj, .linkproj {
+    padding: 20px;
+    text-decoration: none;
+}
+.projeto1, .projeto2 {
+    background-color: #302F3D;
+    width: 461px;
+    height: 186px;
+    border-radius: 20px;
+}
+.ancora1, .ancora2 {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 900;
+}
+.parte1, .parte2 {
+    padding: 15px;
+    display: flex;
+    align-items: center;
+}
+.parte1 img, .parte2 img {
+    margin-right: 10px;
+}
+.descrição1, .descrição2 {
+    padding: 15px;
+}
+footer {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cabeçalho {
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+}
+.profile2 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+.profile3 {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+}
+.corpo {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+}
